@@ -1,14 +1,13 @@
+#include <stdbool.h>
 #include <stdio.h>
 
 int main() {
-  int firstPersonAge = 17;
-  int secondPersonAge = 24;
-  int allowedDrivingAge = 18;
-  char name[] = "joe";
+  bool cIsFun = true;
+  bool jsIsShit = false;
 
-  if (secondPersonAge >= allowedDrivingAge) {
-    printf("%s is allowed to drive", name);
-  } else {
-    printf("%s is not allowed to drive", name);
+  if (cIsFun) {
+    printf("%d is the value true", cIsFun);
+  } else if (!jsIsShit) {
+    printf("%d is the value for false", jsIsShit);
   }
-};
+}
