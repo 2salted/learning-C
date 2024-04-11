@@ -1,13 +1,8 @@
-#include <stdbool.h>
 #include <stdio.h>
 
 int main() {
-  bool cIsFun = true;
-  bool jsIsShit = false;
-
-  if (cIsFun) {
-    printf("%d is the value true", cIsFun);
-  } else if (!jsIsShit) {
-    printf("%d is the value for false", jsIsShit);
+  int numberTable = 4;
+  for (int i = 0; i <= 10; i++) {
+    printf("%d x %d = %d\n", numberTable, i, numberTable * i);
   }
 }
